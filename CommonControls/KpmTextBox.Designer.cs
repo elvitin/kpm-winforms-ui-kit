@@ -35,10 +35,10 @@
       // 
       this.TxtBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
       this.TxtBox.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.TxtBox.Location = new System.Drawing.Point(7, 7);
+      this.TxtBox.Location = new System.Drawing.Point(10, 7);
       this.TxtBox.Margin = new System.Windows.Forms.Padding(0);
       this.TxtBox.Name = "TxtBox";
-      this.TxtBox.Size = new System.Drawing.Size(236, 18);
+      this.TxtBox.Size = new System.Drawing.Size(230, 18);
       this.TxtBox.TabIndex = 0;
       this.TxtBox.Click += new System.EventHandler(this.TxtBox_Click);
       this.TxtBox.TextChanged += new System.EventHandler(this.TxtBox_TextChanged);
@@ -54,18 +54,18 @@
       this.BackColor = System.Drawing.SystemColors.Window;
       this.Controls.Add(this.TxtBox);
       this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-      this.ForeColor = System.Drawing.Color.DimGray;
+      this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(29)))), ((int)(((byte)(27)))));
       this.Margin = new System.Windows.Forms.Padding(0);
       this.Name = "KpmTextBox";
-      this.Padding = new System.Windows.Forms.Padding(7);
+      this.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
       this.Size = new System.Drawing.Size(250, 30);
       this.ResumeLayout(false);
       this.PerformLayout();
 
     }
 
-        #endregion
+    #endregion
 
-        private TextBox TxtBox;
-    }
+    private TextBox TxtBox;
+  }
 }
